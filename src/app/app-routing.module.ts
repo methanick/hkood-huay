@@ -1,14 +1,11 @@
-import { HomeComponent } from './../pages/home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'; // CLI imports router
-import { FooterComponent } from 'src/components/footer/footer.component';
 
-const routes: Routes = [
-    { path: '', component: HomeComponent },
-];
+const routes: Routes = [{ path: '', component: HomeComponent }];
 // configures NgModule imports and exports
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -1,20 +1,17 @@
-import { SidebarComponent } from './../components/sidebar/sidebar.component';
+import { HeaderComponent } from './components/header/header.component';
+
 import { AppRoutingModule } from './app-routing.module';
-import { FooterComponent } from './../components/footer/footer.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import {ButtonModule} from 'primeng/button';
-import { HeaderComponent } from 'src/components/header/header.component';
+import { ButtonModule } from 'primeng/button';
+
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
@@ -22,10 +19,8 @@ import { RouterModule } from '@angular/router';
     ButtonModule,
     RouterModule,
     HeaderComponent,
-    FooterComponent,
-    SidebarComponent
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,15 +1,1 @@
 @import "/src/assets/scss/variable.scss";
-
-.panel{
-    display: flex;
-    background-color: $primary;
-
-    .sidebar{
-        width: 250px;
-    }
-
-    .page{
-        padding: 1rem;
-        width: calc(100% - 250px)
-    }
-}

@@ -1,7 +1,7 @@
 @import "/src/assets/scss/variable.scss";
 
 .header {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 :host::ng-deep .p-menubar {
   height: 100%;
@@ -19,5 +19,11 @@
 }
 
 .logo {
+  display: flex;
   padding: 12px 20px;
+
+  h1{
+    padding-left: 10px;
+    margin: 0;
+  }
 }

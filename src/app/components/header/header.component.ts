@@ -26,11 +26,12 @@ export class HeaderComponent implements OnInit {
       {
         label: 'ขอหวย',
         icon: 'pi pi-fw pi-ticket',
-        routerLink: ['/pagename'],
+        routerLink: ['/'],
       },
       {
         label: 'Edit',
         icon: 'pi pi-fw pi-pencil',
+        routerLink: ['/about'],
       },
     ];
   }

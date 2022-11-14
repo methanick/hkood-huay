@@ -1,3 +1,4 @@
+import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +20,7 @@ import { RouterModule } from '@angular/router';
     ButtonModule,
     RouterModule,
     HeaderComponent,
+    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent],

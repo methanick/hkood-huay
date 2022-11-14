@@ -2,8 +2,22 @@
   padding: 1rem;
   .head {
     font-size: 24px;
+    text-align: center;
     h2 {
       margin-top: 0;
     }
+  }
+}
+
+.huay-panel{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .huay-card{
+    padding: 12px;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
